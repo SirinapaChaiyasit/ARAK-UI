@@ -3442,7 +3442,7 @@ body .container {
 
 body .container .header {
     line-height: 70px; 
-    background: #cfd8dc;
+    background: #b3dbd8;
     overflow: hidden;
     height: 75px;
     position: fixed;
@@ -3474,7 +3474,7 @@ body .container .header .statepadding {
 }
 
 body .container .header .state {
-    float: right;
+    float: left;
     color: #000000;
     width: 595px;
     padding: 15px 15px;
@@ -3746,7 +3746,7 @@ body .container .body {
     width: 100%;
     overflow: hidden;
     min-height: 500px;
-    padding-top: 120px;
+    padding-top: 75px;
     padding-bottom: 70px
 }
 
@@ -3756,12 +3756,17 @@ body .container .body a {
 
 body .container .body .mainmenu {
     background-color: #cfd8dc !important;
-    width: 300px;
-    margin: 0px;
-    padding-left: 10px;
+    width: 315px;
+    height: 800px;
+    top: 75;
+    padding-left: 25px;
     float: left;
     line-height: 1.6;
     position: fixed
+}
+
+body .container .body .mainmenu #about {
+    margin-top: 90%;
 }
 
 body .container .body .mainmenu>ul>li {
