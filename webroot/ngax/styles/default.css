@@ -3442,9 +3442,9 @@ body .container {
 
 body .container .header {
     line-height: 70px; 
-    background: #b3dbd8;
+    background: #293242;
     overflow: hidden;
-    height: 75px;
+    height: 100px;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -3465,20 +3465,24 @@ body .container .header .logo {
     font-size: 30px;
     font-weight: 700;
     float: left;
+    margin-top: 10px;
     padding-left: 40px
 }
 
 body .container .header .statepadding {
     padding-right: 90px;
-    margin-left: 320px
+    margin-left: 500px
 }
 
 body .container .header .state {
     float: left;
     color: #000000;
-    width: 595px;
+    width: 700px;
     padding: 15px 15px;
-    margin: 10px 20px;
+    margin: 22px 20px;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    border-radius: 25px;
     /* border: 1px #355001 solid; */
     font-weight: 300;
     font-size: 20px;
@@ -3488,7 +3492,7 @@ body .container .header .state {
     background-color: white;
     text-overflow: ellipsis;
     position: relative;
-    height: 25px
+    height: 30px
 }
 
 body .container .header .state strong {
@@ -3598,9 +3602,9 @@ body .container .header .state .task-state-info {
 body .container .header .action-icons {
     display: inline-block;
     line-height: normal;
-    margin: 10px 0px;
+    margin: 22px 0px;
     padding: 13px 0px;
-    float: left
+    float: right
 }
 
 body .container .header .action-icons-small {
@@ -3751,14 +3755,15 @@ body .container .body {
 }
 
 body .container .body a {
-    color: #000000
+    color: #2A505A
 }
 
 body .container .body .mainmenu {
-    background-color: #cfd8dc !important;
-    width: 315px;
-    height: 800px;
-    top: 75;
+    background-color: #9DA2AE !important;
+    width: 250px;
+    height: 100%;
+    top: 100px;
+    /* border-right: 1px solid black; */
     padding-left: 25px;
     float: left;
     line-height: 1.6;
@@ -3766,7 +3771,7 @@ body .container .body .mainmenu {
 }
 
 body .container .body .mainmenu #about {
-    margin-top: 90%;
+    margin-top: 140%;
 }
 
 body .container .body .mainmenu>ul>li {
@@ -3936,7 +3941,7 @@ only screen and (min-resolution:2.25dppx) {
 }
 
 body .container .body .mainmenu>ul>li>a.home.active {
-    background: #d170ab url('../img/mainmenu/over/home.png') no-repeat 8px 7px;
+    background: #464543 url('../img/mainmenu/over/home.png') no-repeat 8px 7px;
     background-size: 27px 26px
 }
 
@@ -3957,7 +3962,7 @@ only screen and (min-resolution:2.25dppx) {
 }
 
 body .container .body .mainmenu>ul>li>a.add.active {
-    background: #4ca4d7 url('../img/mainmenu/over/add.png') no-repeat 8px 7px;
+    background: #787A79 url('../img/mainmenu/over/add.png') no-repeat 8px 7px;
     background-size: 27px 26px
 }
 
@@ -3978,7 +3983,7 @@ only screen and (min-resolution:2.25dppx) {
 }
 
 body .container .body .mainmenu>ul>li>a.restore.active {
-    background: #4ca4d7 url('../img/mainmenu/over/restore.png') no-repeat 8px 7px;
+    background: #787A79 url('../img/mainmenu/over/restore.png') no-repeat 8px 7px;
     background-size: 27px 26px
 }
 
@@ -3999,7 +4004,7 @@ only screen and (min-resolution:2.25dppx) {
 }
 
 body .container .body .mainmenu>ul>li>a.resume.active {
-    background: #4ca4d7 url('../img/mainmenu/over/resume.png') no-repeat 8px 7px;
+    background: #787A79 url('../img/mainmenu/over/resume.png') no-repeat 8px 7px;
     background-size: 27px 26px
 }
 
@@ -4020,7 +4025,7 @@ only screen and (min-resolution:2.25dppx) {
 }
 
 body .container .body .mainmenu>ul>li>a.settings.active {
-    background: #4ca4d7 url('../img/mainmenu/over/settings.png') no-repeat 8px 7px;
+    background: #787A79 url('../img/mainmenu/over/settings.png') no-repeat 8px 7px;
     background-size: 27px 26px
 }
 
@@ -4041,7 +4046,7 @@ only screen and (min-resolution:2.25dppx) {
 }
 
 body .container .body .mainmenu>ul>li>a.about.active {
-    background: #4ca4d7 url('../img/mainmenu/over/about.png') no-repeat 8px 7px;
+    background: #787A79 url('../img/mainmenu/over/about.png') no-repeat 8px 7px;
     background-size: 27px 26px
 }
 
@@ -4062,7 +4067,7 @@ only screen and (min-resolution:2.25dppx) {
 }
 
 body .container .body .mainmenu>ul>li>a.add:hover {
-    background: #277DB0 url('../img/mainmenu/over/add.png') no-repeat 8px 7px;
+    background: #464543 url('../img/mainmenu/over/add.png') no-repeat 8px 7px;
     background-size: 27px 26px
 }
 
@@ -4083,7 +4088,7 @@ only screen and (min-resolution:2.25dppx) {
 }
 
 body .container .body .mainmenu>ul>li>a.restore:hover {
-    background: #277DB0 url('../img/mainmenu/over/restore.png') no-repeat 8px 7px;
+    background: #464543 url('../img/mainmenu/over/restore.png') no-repeat 8px 7px;
     background-size: 27px 26px
 }
 
@@ -4104,7 +4109,7 @@ only screen and (min-resolution:2.25dppx) {
 }
 
 body .container .body .mainmenu>ul>li>a.resume:hover {
-    background: #277DB0 url('../img/mainmenu/over/resume.png') no-repeat 8px 7px;
+    background: #464543 url('../img/mainmenu/over/resume.png') no-repeat 8px 7px;
     background-size: 27px 26px
 }
 
@@ -4125,7 +4130,7 @@ only screen and (min-resolution:2.25dppx) {
 }
 
 body .container .body .mainmenu>ul>li>a.settings:hover {
-    background: #277DB0 url('../img/mainmenu/over/settings.png') no-repeat 8px 7px;
+    background: #464543 url('../img/mainmenu/over/settings.png') no-repeat 8px 7px;
     background-size: 27px 26px
 }
 
@@ -4167,7 +4172,7 @@ only screen and (min-resolution:2.25dppx) {
 }
 
 body .container .body .mainmenu>ul>li>a.home:hover {
-    background: #277DB0 url('../img/mainmenu/over/home.png') no-repeat 8px 7px;
+    background: #464543 url('../img/mainmenu/over/home.png') no-repeat 8px 7px;
     background-size: 27px 26px
 }
 
@@ -4188,7 +4193,7 @@ only screen and (min-resolution:2.25dppx) {
 }
 
 body .container .body .mainmenu>ul>li>a.about:hover {
-    background: #277DB0 url('../img/mainmenu/over/about.png') no-repeat 8px 7px;
+    background: #464543 url('../img/mainmenu/over/about.png') no-repeat 8px 7px;
     background-size: 27px 26px
 }
 
