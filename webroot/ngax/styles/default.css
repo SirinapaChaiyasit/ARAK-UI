@@ -50,13 +50,13 @@ form.styled label {
 form.styled input,
 form.styled textarea,
 form.styled select {
-    color: #505050;
+    color: #339999;
     font-size: 16px;
     font-weight: 300;
     float: left;
     display: block;
     border: 1px #d8d8d8 solid;
-    border-radius: 2px;
+    border-radius: 10px;
     width: 420px
 }
 
@@ -125,7 +125,7 @@ form.styled .buttons {
 form.styled .buttons input,
 form.styled .buttons a {
     display: block;
-    background: #277DB0;
+    background: #d170ab;
     color: white !important;
     padding: 5px 15px;
     float: right;
@@ -136,7 +136,7 @@ form.styled .buttons a {
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 16px;
     font-weight: 300;
-    border-radius: 0
+    border-radius: 10
 }
 
 form.styled .buttons input {
@@ -2894,7 +2894,7 @@ body {
 h1,
 h2 {
     font-weight: 300;
-    color: #568301
+    color: #063
 }
 
 h1 {
@@ -2994,7 +2994,7 @@ only screen and (min-resolution:2.25dppx) {
 
 .button {
     display: block;
-    background: #277DB0;
+    background: #d170ab;
     color: white !important;
     padding: 5px 15px;
     float: right;
@@ -4392,7 +4392,7 @@ body .container .body .content div.restore .steps .step span {
     display: block;
     border: 4px #c7e5f6 solid;
     background: white;
-    border-radius: 50%;
+    border-radius: 10%;
     width: 35px;
     height: 35px;
     text-align: center;
@@ -5124,12 +5124,12 @@ div.modal-dialog div.info {
 
 div.connection-lost div.title,
 div.modal-dialog div.title {
-    border: 1px solid #65b1dd;
-    background-color: #65b1dd;
+    border: 1px solid #d170ab;
+    background-color: #d170ab;
     border-radius: 5px 5px 0 0;
     padding: 10px 20px;
     font-weight: bold;
-    color: lightgray;
+    color: white;
     text-align: center
 }
 
