@@ -3771,7 +3771,8 @@ body .container .body .mainmenu {
 }
 
 body .container .body .mainmenu #about {
-    margin-top: 140%;
+    bottom: 10px;
+    position: fixed;
 }
 
 body .container .body .mainmenu>ul>li {
@@ -4235,6 +4236,7 @@ body .container .body .contextmenu {
 
 body .container .body .contextmenu li a {
     color: #277DB0;
+    margin-top: 130px;
     font-size: 15px;
     font-weight: 400;
     padding: 0;
